@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container img{
+    width: 10%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid black;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+
+}
+
+.container img:hover{
+    width: 30%;
+}
